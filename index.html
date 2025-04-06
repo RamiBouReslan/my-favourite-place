@@ -10,15 +10,12 @@
     </header>
     <nav>
       <label for="navigation"> Content: </label>
-      <select id="navigation" name="navigation">
-        <option value="sel ">Select</option>
-        <option value="summary">A Glimpse of Japan</option>
-        <option value="personal">My Japanese Fascination</option>
-      </select>
+      <a href="#summary">A Glimpse of Japan</a> |
+      <a href="#personal">My Japanese Fascination</a>
     </nav>
     <main>
       <!-- A Glimpse of Japan -->
-      <section>
+      <section id="summary">
         <h2>Japan: A Country of Tradition and Innovation</h2>
         <p>
           Japan is an island nation in East Asia, made up of over 6,800 islands.
@@ -34,9 +31,12 @@
           nature, and modern creativity.
         </p>
       </section>
-
+      <div>
+        <img src="pictures/japan-world-map.jpg" alt="Japan world Map" />
+        <img src="pictures/japan-map-physical-1019x1024.jpg" alt="Japan Map" />
+      </div>
       <!-- My Japanese Fascination -->
-      <section>
+      <section id="personal">
         <h2>The Japanese Allure</h2>
         <p>
           Japan is my dream destination to visit someday. My deep attachment to
@@ -51,6 +51,9 @@
           it all in person one day.
         </p>
       </section>
+      <div>
+        <img src="pictures/japan-flag-with-map-inside.jpg" alt="Japan Flag" />
+      </div>
     </main>
   </body>
 </html>
