@@ -8,3 +8,25 @@
   font-family: "Lucida Sans Unicode", sans-serif;
   background-color: #fff;
 }
+
+footer {
+    text-align: center;
+    margin: 100px;
+    font-size: 14px;
+    border: 1px solid #0e0c0c; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+    color: #f40d0d;
+    font-size: 18px;
+  }
+
+  footer a {
+    margin: 0 5px;  
+    color: #f61212;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+      color: #110e0e;
+      text-decoration: underline;
+  }

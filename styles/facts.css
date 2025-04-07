@@ -1,0 +1,73 @@
+header {
+    text-align: center;
+    padding: 80px 20px; 
+    background-color: #f7f5f5;
+    border-bottom: 4px solid #e5e5e5;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100 px;
+    position: relative;
+    background-image: url('../pictures/japan-map-poster.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; /
+  }
+  
+  
+  header h1 {
+    font-size: 30px;
+    color: rgb(250, 32, 32);
+    margin: 0;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+  header img {
+    display: none; 
+  }
+  
+  section {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(200, 200, 200, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  section img {
+    flex: 1 1 300px;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(245, 125, 125, 0.5);
+  }
+  
+
+  section .text-content {
+    flex: 2 1 500px;
+  }
+  
+ 
+  section h2 {
+    font-size: 24px;
+    color: #fd0404;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  section p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    text-indent: 0.5cm;
+  }
+  
+
